@@ -1,0 +1,25 @@
+#contenedorlogin {
+	width: 50%;
+	height: 430px;
+	margin: 100	 auto;
+}
+
+#contenedorlogin2 {
+	width: 30%;
+	height: 360px;
+	margin: auto;
+}
+#contenedorlogin3 {
+	width: 30%;
+	height: 450px;
+	margin: auto;
+}
+
+.centrado{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+

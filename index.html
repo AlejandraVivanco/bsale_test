@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Bsale-Test</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">BSALE TEST</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Bienvenidos</a></li>
+                        <!--<li class="nav-item"><a class="nav-link" href="#!">About</a></li>-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">Todos los Productos</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="energeticas.php">Energeticas</a></li>
+                                <li><a class="dropdown-item" href="pisco.php">Pisco</a></li>
+								<li><a class="dropdown-item" href="ron.php">Ron</a></li>
+								<li><a class="dropdown-item" href="bebidas.php">Bebidas</a></li>
+								<li><a class="dropdown-item" href="snack.php">Snacks</a></li>
+								<li><a class="dropdown-item" href="cervezas.php">Cervezas</a></li>
+								<li><a class="dropdown-item" href="vodka.php">Vodka</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+			<!-- BUSCADOR-->
+			<div class="buscar">
+				<input type="text" class="buscar_texto" placeholder="¿Qué buscas?">
+				<a href="" class="boton" name="busqueda">
+				<i class="icon-buscar"></i>
+				</a>
+			</div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Bienvenidos!</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">A Nuestra Tienda Virtual</p>
+                </div>
+            </div>
+        </header>
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dojiw2m9tvv09.cloudfront.net/11132/product/misterbig3308256.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">ENERGETICA MR BIG</h5>
+                                    <!-- Product price-->
+                                    $1.490
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="energeticas.php">Ver Opciones</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dojiw2m9tvv09.cloudfront.net/11132/product/alto8532.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">PISCO ALTO DEL CARMEN 35º</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <!--<span class="text-muted text-decoration-line-through">$20.00</span>-->
+                                    $7.990
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="pisco.php">Ver Opciones</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dojiw2m9tvv09.cloudfront.net/11132/product/bacardi9450.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">RON BACARDI AÑEJO</h5>
+                                    <!-- Product price-->
+									<div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!--<span class="text-muted text-decoration-line-through">$50.00</span>-->
+                                    $4.990
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="ron.php">Ver Opciones</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dojiw2m9tvv09.cloudfront.net/11132/product/cocazero9766.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">COCA COLA ZERO DESECHABLE</h5>
+                                    <!-- Product reviews-->    
+                                    <!-- Product price-->
+                                    $1.490
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="bebidas.php">Ver Opciones</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dojiw2m9tvv09.cloudfront.net/11132/product/manisinsalmp6988.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Maní Sin Sal</h5>
+                                    <!-- Product price-->
+                                    <!--<span class="text-muted text-decoration-line-through">$50.00</span>-->
+                                    $500
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="snack.php">Ver Opciones</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="data:image/jpeg;base64,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" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Cerveza Escudo Normal LATA 350CC</h5>
+                                    <!-- Product price-->
+                                    $600
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="cervezas.php">Ver Opciones</a></div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dojiw2m9tvv09.cloudfront.net/11132/product/espiritu8957.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">PISCO ESPIRITU DEL ELQUI 45º</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    $6.990
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="pisco.php">Ver Opciones</a></div>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dojiw2m9tvv09.cloudfront.net/11132/product/absolut21381.png" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">ABSOLUT</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                    <!-- Product price-->
+                                    <!--<span class="text-muted text-decoration-line-through">$20.00</span>-->
+                                    $8.990
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="vodka.php">Ver Opciones</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+            </div>
+			
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
