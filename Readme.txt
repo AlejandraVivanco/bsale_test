@@ -6,7 +6,7 @@ Este es un ejemplo de un tienda online reproducible y listo para probar, en el c
 
 1. Productos agrupados en categorias
 2. Buscador de opciones
-3. Página en la cual ver las compras
+3. Páginas individuales de categorias
 
 Esto en un front end (datos a interfaz gráfica para ser vista por el usuario) y api rest (comunicación entre interfaces).
 Creando una página de inicio (index.html) en la cual se encuentran los productos y categorias y otra 
